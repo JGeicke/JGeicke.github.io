@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['playercontroller_23',['PlayerController',['../class_player_controller.html',1,'']]],
-  ['playerinput_24',['PlayerInput',['../struct_player_input.html',1,'']]],
-  ['playermovement_25',['PlayerMovement',['../class_player_movement.html',1,'']]],
-  ['pointtrigger_26',['PointTrigger',['../class_point_trigger.html',1,'']]]
+  ['onstartserver_23',['OnStartServer',['../class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d',1,'CustomNetworkManager']]]
 ];
