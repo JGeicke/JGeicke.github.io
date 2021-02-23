@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['jump_17',['Jump',['../class_player_movement.html#a7ac576128e1716af123b9c623f703168',1,'PlayerMovement']]]
+  ['handlegameresults_36',['HandleGameResults',['../class_game_server.html#a55136cf3bb10a2faefea02723413b3fd',1,'GameServer']]],
+  ['home_37',['Home',['../index.html',1,'']]]
 ];

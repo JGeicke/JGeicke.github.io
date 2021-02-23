@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rpcerasequestionboardtext_68',['RpcEraseQuestionBoardText',['../class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9',1,'GameManager']]]
+  ['loaddatabase_191',['LoadDatabase',['../class_firebase_manager.html#aecd6b73cbc71049fa6d7193e594dfba1',1,'FirebaseManager.LoadDatabase()'],['../class_firebase_manager_functions.html#ab22d1b64aa6816b33de62ca1198ec0a1',1,'FirebaseManagerFunctions.LoadDatabase()']]]
 ];

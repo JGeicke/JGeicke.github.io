@@ -1,4 +1,19 @@
 var searchData=
 [
-  ['home_16',['Home',['../index.html',1,'']]]
+  ['gamemanager_20',['GameManager',['../class_game_manager.html',1,'']]],
+  ['gameover_21',['GameOver',['../class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497',1,'GameManager']]],
+  ['gameserver_22',['GameServer',['../class_game_server.html',1,'']]],
+  ['generatefloors_23',['GenerateFloors',['../class_player_controller.html#a088a3ab391d713798c26c60ec60cbd15',1,'PlayerController']]],
+  ['getcameraspeed_24',['GetCameraSpeed',['../class_camera_movement.html#a12744c810da811ebfa1b6442e7b807c9',1,'CameraMovement']]],
+  ['getcategoryasenum_25',['GetCategoryAsEnum',['../class_firebase_manager_functions.html#ac9d67023b7875667a80995482964c60a',1,'FirebaseManagerFunctions']]],
+  ['getgamemode_26',['GetGameMode',['../class_game_manager.html#a65ec024f7c0dafb15a90454acf0077f8',1,'GameManager']]],
+  ['getgamestate_27',['GetGameState',['../class_game_manager.html#acdf06cdffd5637568332bc6f246b9ca3',1,'GameManager']]],
+  ['getlistofanswers_28',['GetListOfAnswers',['../class_question.html#a05c0a5e1108cc704957bbf92ac35f232',1,'Question']]],
+  ['getmovementborders_29',['GetMovementBorders',['../class_game_manager.html#a47e6bd94dbce7980987f152de271775b',1,'GameManager']]],
+  ['getquestion_30',['GetQuestion',['../class_question.html#aa498436de3e03ea454f12abfca8fbd13',1,'Question']]],
+  ['getquestiondictionary_31',['GetQuestionDictionary',['../class_firebase_manager_functions.html#a410b5c236954aef083b8b4bfb0680d9a',1,'FirebaseManagerFunctions']]],
+  ['getquestionlist_32',['GetQuestionList',['../class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7',1,'GameManager']]],
+  ['getrightanswer_33',['GetRightAnswer',['../class_question.html#af29d9ce5d880297eb875aee1100121e2',1,'Question']]],
+  ['getselectedcategoryquestion_34',['GetSelectedCategoryQuestion',['../class_firebase_manager.html#add4e60bcc786305f3fa6993c56dc7c61',1,'FirebaseManager.GetSelectedCategoryQuestion()'],['../class_firebase_manager_functions.html#af4cdaf47d91c8816e0a5148bcade8647',1,'FirebaseManagerFunctions.GetSelectedCategoryQuestion()']]],
+  ['gettarget_35',['GetTarget',['../class_camera_movement.html#a2edf3b6326399af27bae0f66428d6ed3',1,'CameraMovement']]]
 ];

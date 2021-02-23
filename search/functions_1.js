@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['debugontimerfinish_56',['DebugOnTimerFinish',['../class_game_manager.html#a6afebb0be6247f0533f8fa456eb236a1',1,'GameManager']]],
-  ['debugresetgamestate_57',['DebugResetGameState',['../class_game_manager.html#a5dbf20cac6447720af105cd7197d5ca3',1,'GameManager']]],
-  ['debugsetinfotext_58',['DebugSetInfotext',['../class_game_manager.html#a628bbac002425a90ebf170f5639592a0',1,'GameManager']]]
+  ['calcslownessfactor_170',['CalcSlownessFactor',['../class_player_movement.html#abbd46aa4ea4246ca01760d55b1ae40dd',1,'PlayerMovement']]],
+  ['checkborders_171',['CheckBorders',['../class_player_movement.html#a01284483cf2a1f21717fbbf8a511811c',1,'PlayerMovement']]],
+  ['cleanup_172',['Cleanup',['../class_editor_1_1_play_mode_tests_1_1_test_firebase_manager_functions.html#a06e2ff7ad9371920f649d57d5fa49ccd',1,'Editor::PlayModeTests::TestFirebaseManagerFunctions']]]
 ];

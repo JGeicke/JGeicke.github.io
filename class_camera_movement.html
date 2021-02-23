@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('class_camera_movement.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p>Controls the movement of the camera in scenes. Allows the camera to follow a targets position. If the target appears to be stuttering, set the interpolation of the Rigidbody component to "Interpolate"  
+<p>Controls the movement of the camera in scenes. Allows the camera to follow a targets position.  
  <a href="class_camera_movement.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for CameraMovement:</div>
@@ -106,7 +106,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae4290ff4a6367a2a03a2294ed46b8b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the follow target of the camera.  <a href="class_camera_movement.html#ae4290ff4a6367a2a03a2294ed46b8b89">More...</a><br /></td></tr>
 <tr class="separator:ae4290ff4a6367a2a03a2294ed46b8b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ec2dac675a031d2e1caf675758bdce4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_movement.html#a7ec2dac675a031d2e1caf675758bdce4">MoveTowardsTarget</a> ()</td></tr>
-<tr class="memdesc:a7ec2dac675a031d2e1caf675758bdce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move towards the position of the target. Interpolates the position of the target and the position of the camera linear based on the <code>_cameraSpeed</code>.  <a href="class_camera_movement.html#a7ec2dac675a031d2e1caf675758bdce4">More...</a><br /></td></tr>
+<tr class="memdesc:a7ec2dac675a031d2e1caf675758bdce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move towards the position of the target.  <a href="class_camera_movement.html#a7ec2dac675a031d2e1caf675758bdce4">More...</a><br /></td></tr>
 <tr class="separator:a7ec2dac675a031d2e1caf675758bdce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7e4603c45342f32f5c31e8f567bbf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_movement.html#a7e7e4603c45342f32f5c31e8f567bbf8">SetCameraSpeed</a> (float newCameraSpeed)</td></tr>
 <tr class="memdesc:a7e7e4603c45342f32f5c31e8f567bbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the movement speed of the camera. Used for unity testing.  <a href="class_camera_movement.html#a7e7e4603c45342f32f5c31e8f567bbf8">More...</a><br /></td></tr>
@@ -119,7 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2edf3b6326399af27bae0f66428d6ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Controls the movement of the camera in scenes. Allows the camera to follow a targets position. If the target appears to be stuttering, set the interpolation of the Rigidbody component to "Interpolate" </p>
+<div class="textblock"><p>Controls the movement of the camera in scenes. Allows the camera to follow a targets position. </p>
+<p>If the target appears to be stuttering, set the interpolation of the Rigidbody component to "Interpolate".</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a12744c810da811ebfa1b6442e7b807c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12744c810da811ebfa1b6442e7b807c9">&#9670;&nbsp;</a></span>GetCameraSpeed()</h2>
@@ -137,6 +138,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get current movement speed of camera. </p>
+<p>SeecameraSpeed</p>
 <dl class="section return"><dt>Returns</dt><dd>current movement speed of camera</dd></dl>
 
 </div>
@@ -157,6 +159,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get current target of camera. </p>
+<p>Seetarget</p>
 <dl class="section return"><dt>Returns</dt><dd>current target of camera</dd></dl>
 
 </div>
@@ -176,7 +179,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Move towards the position of the target. Interpolates the position of the target and the position of the camera linear based on the <code>_cameraSpeed</code>. </p>
+<p>Move towards the position of the target. </p>
+<p>The function interpolates the position of the target and the position of the camera linear based on the <code>_cameraSpeed</code>.</p>
 
 </div>
 </div>
@@ -197,6 +201,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the movement speed of the camera. Used for unity testing. </p>
+<p>SeecameraSpeed</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newCameraSpeed</td><td>movement speed of camera</td></tr>
@@ -223,6 +228,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the follow target of the camera. </p>
+<p>Seetarget</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newTarget</td><td>target to follow</td></tr>

@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('class_firebase_manager.html',''); init
 <div class="title">FirebaseManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a> is a Singleton that controls the connection between game and database.  
+ <a href="class_firebase_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for FirebaseManager:</div>
 <div class="dyncontent">
@@ -100,31 +103,216 @@ Inheritance diagram for FirebaseManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a983e477e64b3f942781cab48ec264206"><td class="memItemLeft" align="right" valign="top"><a id="a983e477e64b3f942781cab48ec264206"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameManager</b> (GameObject newGameManager)</td></tr>
+<tr class="memitem:a983e477e64b3f942781cab48ec264206"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#a983e477e64b3f942781cab48ec264206">SetGameManager</a> (GameObject newGameManager)</td></tr>
+<tr class="memdesc:a983e477e64b3f942781cab48ec264206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the  <a href="class_firebase_manager.html#a983e477e64b3f942781cab48ec264206">More...</a><br /></td></tr>
 <tr class="separator:a983e477e64b3f942781cab48ec264206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a8535b956d7a2dbb3d1713fa3f57dd7"><td class="memItemLeft" align="right" valign="top"><a id="a5a8535b956d7a2dbb3d1713fa3f57dd7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="memitem:a5a8535b956d7a2dbb3d1713fa3f57dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#a5a8535b956d7a2dbb3d1713fa3f57dd7">Awake</a> ()</td></tr>
+<tr class="memdesc:a5a8535b956d7a2dbb3d1713fa3f57dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the Singleton <a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a>.  <a href="class_firebase_manager.html#a5a8535b956d7a2dbb3d1713fa3f57dd7">More...</a><br /></td></tr>
 <tr class="separator:a5a8535b956d7a2dbb3d1713fa3f57dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab498e7f9d2479b8c2ddc4be13a72576d"><td class="memItemLeft" align="right" valign="top"><a id="ab498e7f9d2479b8c2ddc4be13a72576d"></a>
-Category&#160;</td><td class="memItemRight" valign="bottom"><b>GetCategoryAsEnum</b> (string category)</td></tr>
-<tr class="separator:ab498e7f9d2479b8c2ddc4be13a72576d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ff447ef0f2ceab77da0909e930b9502"><td class="memItemLeft" align="right" valign="top"><a id="a4ff447ef0f2ceab77da0909e930b9502"></a>
-IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>RetrieveFromDatabase</b> ()</td></tr>
-<tr class="separator:a4ff447ef0f2ceab77da0909e930b9502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2723d884ed2acf03376f8a1d57404178"><td class="memItemLeft" align="right" valign="top"><a id="a2723d884ed2acf03376f8a1d57404178"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadDatabase</b> ()</td></tr>
-<tr class="separator:a2723d884ed2acf03376f8a1d57404178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add4e60bcc786305f3fa6993c56dc7c61"><td class="memItemLeft" align="right" valign="top"><a id="add4e60bcc786305f3fa6993c56dc7c61"></a>
-List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSelectedCategoryQuestion</b> (string[] categories)</td></tr>
+<tr class="memitem:ab3bea0bbf6646e7323e3192faad8c998"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#ab3bea0bbf6646e7323e3192faad8c998">RetrieveFromDatabase</a> (GameMode gameMode)</td></tr>
+<tr class="memdesc:ab3bea0bbf6646e7323e3192faad8c998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the process of loading question.  <a href="class_firebase_manager.html#ab3bea0bbf6646e7323e3192faad8c998">More...</a><br /></td></tr>
+<tr class="separator:ab3bea0bbf6646e7323e3192faad8c998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6329730b0c60e1bf57b452b3826a4049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#a6329730b0c60e1bf57b452b3826a4049">SetIsAllLoaded</a> (bool isAllLoaded)</td></tr>
+<tr class="memdesc:a6329730b0c60e1bf57b452b3826a4049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the flag of downloading question progress.  <a href="class_firebase_manager.html#a6329730b0c60e1bf57b452b3826a4049">More...</a><br /></td></tr>
+<tr class="separator:a6329730b0c60e1bf57b452b3826a4049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd6b73cbc71049fa6d7193e594dfba1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#aecd6b73cbc71049fa6d7193e594dfba1">LoadDatabase</a> (GameMode gameMode)</td></tr>
+<tr class="memdesc:aecd6b73cbc71049fa6d7193e594dfba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the set of question based on the selected GameMode.  <a href="class_firebase_manager.html#aecd6b73cbc71049fa6d7193e594dfba1">More...</a><br /></td></tr>
+<tr class="separator:aecd6b73cbc71049fa6d7193e594dfba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4e60bcc786305f3fa6993c56dc7c61"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#add4e60bcc786305f3fa6993c56dc7c61">GetSelectedCategoryQuestion</a> (string[] categories)</td></tr>
+<tr class="memdesc:add4e60bcc786305f3fa6993c56dc7c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the questions based on the selected categories  <a href="class_firebase_manager.html#add4e60bcc786305f3fa6993c56dc7c61">More...</a><br /></td></tr>
 <tr class="separator:add4e60bcc786305f3fa6993c56dc7c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1c2bd1e06e19ee57e470746a779021d8"><td class="memItemLeft" align="right" valign="top"><a id="a1c2bd1e06e19ee57e470746a779021d8"></a>
-static <a class="el" href="class_firebase_manager.html">FirebaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b></td></tr>
+<tr class="memitem:a1c2bd1e06e19ee57e470746a779021d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_firebase_manager.html">FirebaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager.html#a1c2bd1e06e19ee57e470746a779021d8">instance</a></td></tr>
+<tr class="memdesc:a1c2bd1e06e19ee57e470746a779021d8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a> singleton  <a href="class_firebase_manager.html#a1c2bd1e06e19ee57e470746a779021d8">More...</a><br /></td></tr>
 <tr class="separator:a1c2bd1e06e19ee57e470746a779021d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a> is a Singleton that controls the connection between game and database. </p>
+<p>All functions are stateless. They can only properly be tested in PlayMode tests.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5a8535b956d7a2dbb3d1713fa3f57dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8535b956d7a2dbb3d1713fa3f57dd7">&#9670;&nbsp;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FirebaseManager.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the Singleton <a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a>. </p>
+
+</div>
+</div>
+<a id="add4e60bcc786305f3fa6993c56dc7c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4e60bcc786305f3fa6993c56dc7c61">&#9670;&nbsp;</a></span>GetSelectedCategoryQuestion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_question.html">Question</a>&gt; FirebaseManager.GetSelectedCategoryQuestion </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>categories</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the questions based on the selected categories </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">categories</td><td>List of selected categories</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aecd6b73cbc71049fa6d7193e594dfba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd6b73cbc71049fa6d7193e594dfba1">&#9670;&nbsp;</a></span>LoadDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FirebaseManager.LoadDatabase </td>
+          <td>(</td>
+          <td class="paramtype">GameMode&#160;</td>
+          <td class="paramname"><em>gameMode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load the set of question based on the selected GameMode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameMode</td><td>The selected game mode</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab3bea0bbf6646e7323e3192faad8c998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bea0bbf6646e7323e3192faad8c998">&#9670;&nbsp;</a></span>RetrieveFromDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator FirebaseManager.RetrieveFromDatabase </td>
+          <td>(</td>
+          <td class="paramtype">GameMode&#160;</td>
+          <td class="paramname"><em>gameMode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts the process of loading question. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameMode</td><td>The selected game mode</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a983e477e64b3f942781cab48ec264206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983e477e64b3f942781cab48ec264206">&#9670;&nbsp;</a></span>SetGameManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FirebaseManager.SetGameManager </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>newGameManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the </p>
+<p><code>gameManager</code> variable to a <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> GameObject. </p>
+<p>This function is needed for testing purposes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newGameManager</td><td>The <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> GameObject</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6329730b0c60e1bf57b452b3826a4049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6329730b0c60e1bf57b452b3826a4049">&#9670;&nbsp;</a></span>SetIsAllLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FirebaseManager.SetIsAllLoaded </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isAllLoaded</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the flag of downloading question progress. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isAllLoaded</td><td>The status of progress, true is done, false it not done</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1c2bd1e06e19ee57e470746a779021d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2bd1e06e19ee57e470746a779021d8">&#9670;&nbsp;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_firebase_manager.html">FirebaseManager</a> FirebaseManager.instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a> singleton </p>
+<p>See <a class="el" href="class_firebase_manager.html#a5a8535b956d7a2dbb3d1713fa3f57dd7" title="Initializes the Singleton FirebaseManager.">Awake</a></p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Assets/Scripts/FirebaseManager.cs</li>
 </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['calcslownessfactor_55',['CalcSlownessFactor',['../class_player_movement.html#abbd46aa4ea4246ca01760d55b1ae40dd',1,'PlayerMovement']]]
+  ['awake_169',['Awake',['../class_firebase_manager.html#a5a8535b956d7a2dbb3d1713fa3f57dd7',1,'FirebaseManager']]]
 ];

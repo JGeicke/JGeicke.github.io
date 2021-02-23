@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['gameover_59',['GameOver',['../class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497',1,'GameManager']]],
-  ['generatefloors_60',['GenerateFloors',['../class_player_controller.html#a088a3ab391d713798c26c60ec60cbd15',1,'PlayerController']]],
-  ['getcameraspeed_61',['GetCameraSpeed',['../class_camera_movement.html#a12744c810da811ebfa1b6442e7b807c9',1,'CameraMovement']]],
-  ['getquestionlist_62',['GetQuestionList',['../class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7',1,'GameManager']]],
-  ['gettarget_63',['GetTarget',['../class_camera_movement.html#a2edf3b6326399af27bae0f66428d6ed3',1,'CameraMovement']]]
+  ['debugontimerfinish_173',['DebugOnTimerFinish',['../class_game_manager.html#a6afebb0be6247f0533f8fa456eb236a1',1,'GameManager']]],
+  ['debugresetgamestate_174',['DebugResetGameState',['../class_game_manager.html#a5dbf20cac6447720af105cd7197d5ca3',1,'GameManager']]],
+  ['debugsetinfotext_175',['DebugSetInfotext',['../class_game_manager.html#a628bbac002425a90ebf170f5639592a0',1,'GameManager']]],
+  ['debugsetmovementborders_176',['DebugSetMovementBorders',['../class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc',1,'GameManager']]]
 ];

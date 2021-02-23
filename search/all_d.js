@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['rpcerasequestionboardtext_30',['RpcEraseQuestionBoardText',['../class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9',1,'GameManager']]]
+  ['onstartbuttonclick_57',['OnStartButtonClick',['../class_button_start_game_behaviour.html#a655a193860d27055b48b26c49e2140b2',1,'ButtonStartGameBehaviour']]],
+  ['onstartlocalplayer_58',['OnStartLocalPlayer',['../class_player_controller.html#aa274be913417ca85d0cf5fc0afd93696',1,'PlayerController']]],
+  ['onstartserver_59',['OnStartServer',['../class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d',1,'CustomNetworkManager']]]
 ];

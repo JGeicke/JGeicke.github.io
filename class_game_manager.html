@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_game_manager.html',''); initResi
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -94,7 +95,7 @@ $(document).ready(function(){initNavTree('class_game_manager.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="class_game_manager.html" title="GameManager is a Singleton that controls the game.">GameManager</a> is a Singleton that controls the game.  
+<p><a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> is a singleton that controls the game.  
  <a href="class_game_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for GameManager:</div>
@@ -105,11 +106,11 @@ Inheritance diagram for GameManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a47e6bd94dbce7980987f152de271775b"><td class="memItemLeft" align="right" valign="top"><a id="a47e6bd94dbce7980987f152de271775b"></a>
-<a class="el" href="struct_movement_borders.html">MovementBorders</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetMovementBorders</b> ()</td></tr>
+<tr class="memitem:a47e6bd94dbce7980987f152de271775b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_movement_borders.html">MovementBorders</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a47e6bd94dbce7980987f152de271775b">GetMovementBorders</a> ()</td></tr>
+<tr class="memdesc:a47e6bd94dbce7980987f152de271775b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns relevant values from the movement border objects.  <a href="class_game_manager.html#a47e6bd94dbce7980987f152de271775b">More...</a><br /></td></tr>
 <tr class="separator:a47e6bd94dbce7980987f152de271775b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9193c24424f6a10c7d9df407264ed4fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a9193c24424f6a10c7d9df407264ed4fa">StartGame</a> ()</td></tr>
-<tr class="memdesc:a9193c24424f6a10c7d9df407264ed4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds all connected players to an internal list, sets their points and sets the game state to <code>GameBegin</code>. The timer starts at the end of the method.  <a href="class_game_manager.html#a9193c24424f6a10c7d9df407264ed4fa">More...</a><br /></td></tr>
+<tr class="memdesc:a9193c24424f6a10c7d9df407264ed4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds all connected players to an internal list, sets their points and sets the game state to <code>GameBegin</code>.  <a href="class_game_manager.html#a9193c24424f6a10c7d9df407264ed4fa">More...</a><br /></td></tr>
 <tr class="separator:a9193c24424f6a10c7d9df407264ed4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2112358f5da888ac18c3ee0c17d2f5"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a4e2112358f5da888ac18c3ee0c17d2f5">StartTimer</a> (int seconds)</td></tr>
 <tr class="memdesc:a4e2112358f5da888ac18c3ee0c17d2f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the timer with the given number of seconds.  <a href="class_game_manager.html#a4e2112358f5da888ac18c3ee0c17d2f5">More...</a><br /></td></tr>
@@ -118,21 +119,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a26a14d4002e55ec529a607ff4ff2fab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the question board text when the game is over.  <a href="class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9">More...</a><br /></td></tr>
 <tr class="separator:a26a14d4002e55ec529a607ff4ff2fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ee56efb67ca90fa5c4efee36b25f497"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497">GameOver</a> (uint clientID)</td></tr>
-<tr class="memdesc:a5ee56efb67ca90fa5c4efee36b25f497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets called, when a player arrives at the ground floor and displays the winner.  <a href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497">More...</a><br /></td></tr>
+<tr class="memdesc:a5ee56efb67ca90fa5c4efee36b25f497"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method gets called, when a player arrives at the ground floor. It also displays the winner.  <a href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497">More...</a><br /></td></tr>
 <tr class="separator:a5ee56efb67ca90fa5c4efee36b25f497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a651d9711ff8dd773810f34b07fcf96b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a651d9711ff8dd773810f34b07fcf96b0">UpdatePlayerFloorText</a> ()</td></tr>
-<tr class="separator:a651d9711ff8dd773810f34b07fcf96b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4806b613f6b22bcaf8289384d9e400f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ac4806b613f6b22bcaf8289384d9e400f">UpdatePlayerFloorText</a> (List&lt; GameObject &gt; updatePlayerList, List&lt; int &gt; updateFloors)</td></tr>
+<tr class="memdesc:ac4806b613f6b22bcaf8289384d9e400f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called by CheckPlayerFloors() when one or more players entered a new floor. It calls RpcUpdatePlayerFloorText(List&lt;GameObject&gt;, List&lt;int&gt;) that updates the player info UI for every client.  <a href="class_game_manager.html#ac4806b613f6b22bcaf8289384d9e400f">More...</a><br /></td></tr>
+<tr class="separator:ac4806b613f6b22bcaf8289384d9e400f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c348c6051548eea06b8b5c3c321cc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#af5c348c6051548eea06b8b5c3c321cc1">SetIsQuestionReady</a> (bool isQuestionReady)</td></tr>
-<tr class="memdesc:af5c348c6051548eea06b8b5c3c321cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the isQuestionReady field  <a href="class_game_manager.html#af5c348c6051548eea06b8b5c3c321cc1">More...</a><br /></td></tr>
+<tr class="memdesc:af5c348c6051548eea06b8b5c3c321cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the questions and answers are loaded from the database. The field _isQuestionReady is set to the given argument (e.g. <code>true</code>).  <a href="class_game_manager.html#af5c348c6051548eea06b8b5c3c321cc1">More...</a><br /></td></tr>
 <tr class="separator:af5c348c6051548eea06b8b5c3c321cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19b4d0e8df15c7e5ee1e5009d88783d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7">GetQuestionList</a> (string[] categories)</td></tr>
-<tr class="memdesc:a19b4d0e8df15c7e5ee1e5009d88783d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of question based on category after the file loaded from database  <a href="class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7">More...</a><br /></td></tr>
+<tr class="memdesc:a19b4d0e8df15c7e5ee1e5009d88783d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of questions based on category after the file loaded from database.  <a href="class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7">More...</a><br /></td></tr>
 <tr class="separator:a19b4d0e8df15c7e5ee1e5009d88783d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30fcaa317a42adfe29dc3592622f0ff"><td class="memItemLeft" align="right" valign="top"><a id="ac30fcaa317a42adfe29dc3592622f0ff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShuffleQuestionOrder</b> (List&lt; <a class="el" href="class_question.html">Question</a> &gt; questionList)</td></tr>
+<tr class="memitem:ac30fcaa317a42adfe29dc3592622f0ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ac30fcaa317a42adfe29dc3592622f0ff">ShuffleQuestionOrder</a> (List&lt; <a class="el" href="class_question.html">Question</a> &gt; questionList)</td></tr>
+<tr class="memdesc:ac30fcaa317a42adfe29dc3592622f0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method shuffles the question order.  <a href="class_game_manager.html#ac30fcaa317a42adfe29dc3592622f0ff">More...</a><br /></td></tr>
 <tr class="separator:ac30fcaa317a42adfe29dc3592622f0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c1a1560c29a0f0d19464e53f70d295"><td class="memItemLeft" align="right" valign="top"><a id="a89c1a1560c29a0f0d19464e53f70d295"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShuffleAnswerOrder</b> (List&lt; <a class="el" href="class_question.html">Question</a> &gt; questionList)</td></tr>
+<tr class="memitem:a89c1a1560c29a0f0d19464e53f70d295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a89c1a1560c29a0f0d19464e53f70d295">ShuffleAnswerOrder</a> (List&lt; <a class="el" href="class_question.html">Question</a> &gt; questionList)</td></tr>
+<tr class="memdesc:a89c1a1560c29a0f0d19464e53f70d295"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method shuffles the possible answers and sets the variable _listOfQuestion to the resulting list.  <a href="class_game_manager.html#a89c1a1560c29a0f0d19464e53f70d295">More...</a><br /></td></tr>
 <tr class="separator:a89c1a1560c29a0f0d19464e53f70d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6afebb0be6247f0533f8fa456eb236a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a6afebb0be6247f0533f8fa456eb236a1">DebugOnTimerFinish</a> (GameState state)</td></tr>
 <tr class="memdesc:a6afebb0be6247f0533f8fa456eb236a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test OnTimerFinish() with certain game state of server. Should only be used inside of playmode tests to not disrupt the flow of the game.  <a href="class_game_manager.html#a6afebb0be6247f0533f8fa456eb236a1">More...</a><br /></td></tr>
@@ -141,8 +143,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ShuffleAnswerOrder</b
 <tr class="memdesc:a5dbf20cac6447720af105cd7197d5ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets GameState to accurately test game flow. Should only be used inside of playmode tests to not disrupt the flow of the game.  <a href="class_game_manager.html#a5dbf20cac6447720af105cd7197d5ca3">More...</a><br /></td></tr>
 <tr class="separator:a5dbf20cac6447720af105cd7197d5ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a628bbac002425a90ebf170f5639592a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">DebugSetInfotext</a> ()</td></tr>
-<tr class="memdesc:a628bbac002425a90ebf170f5639592a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="Gets called, when a player arrives at the ground floor and displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="Gets called, when a player arrives at the ground floor and displays the winner.">GameOver(uint)</a>  <a href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">More...</a><br /></td></tr>
+<tr class="memdesc:a628bbac002425a90ebf170f5639592a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver(uint)</a>  <a href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">More...</a><br /></td></tr>
 <tr class="separator:a628bbac002425a90ebf170f5639592a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8d5519e64ea6b30cf7f66676822abc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc">DebugSetMovementBorders</a> (GameObject movementBorderMaxZAxisObject, GameObject movementBorderMaxXAxisObject, GameObject movementBorderMinZAxisObject, GameObject movementBorderMinXAxisObject)</td></tr>
+<tr class="memdesc:a7d8d5519e64ea6b30cf7f66676822abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set movementBorder objects in playmode tests. This function is needed to ensure subsequent tests to run smoothly after the playmode tests of the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>. It should only be used inside of playmode tests to not disrupt the flow of the game.  <a href="class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc">More...</a><br /></td></tr>
+<tr class="separator:a7d8d5519e64ea6b30cf7f66676822abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -158,8 +163,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>gameStarted</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad3e717f4fb0f378b969f4457de81f23e"><td class="memItemLeft" align="right" valign="top"><a id="ad3e717f4fb0f378b969f4457de81f23e"></a>
-<a class="el" href="class_game_manager.html">GameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b><code> [get, set]</code></td></tr>
+<tr class="memitem:ad3e717f4fb0f378b969f4457de81f23e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_manager.html">GameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e">Instance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad3e717f4fb0f378b969f4457de81f23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the game manager instance. If someone wants to set the game manager to a new instance, an <code>Expection</code> will be thrown.  <a href="class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e">More...</a><br /></td></tr>
 <tr class="separator:ad3e717f4fb0f378b969f4457de81f23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6698407933c80913fd009b6b9cd5c8e"><td class="memItemLeft" align="right" valign="top"><a id="ab6698407933c80913fd009b6b9cd5c8e"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnPoint</b><code> [get]</code></td></tr>
@@ -167,12 +172,15 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>SpawnPoint</b><
 <tr class="memitem:a5be0c9ed78495ef2e99af2372a40843d"><td class="memItemLeft" align="right" valign="top"><a id="a5be0c9ed78495ef2e99af2372a40843d"></a>
 uint&#160;</td><td class="memItemRight" valign="bottom"><b>PointsForCorrectAnswer</b><code> [get]</code></td></tr>
 <tr class="separator:a5be0c9ed78495ef2e99af2372a40843d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf06cdffd5637568332bc6f246b9ca3"><td class="memItemLeft" align="right" valign="top"><a id="acdf06cdffd5637568332bc6f246b9ca3"></a>
-GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b><code> [get]</code></td></tr>
+<tr class="memitem:acdf06cdffd5637568332bc6f246b9ca3"><td class="memItemLeft" align="right" valign="top">GameState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#acdf06cdffd5637568332bc6f246b9ca3">GetGameState</a><code> [get]</code></td></tr>
+<tr class="memdesc:acdf06cdffd5637568332bc6f246b9ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the game state. It can only be set by the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>.  <a href="class_game_manager.html#acdf06cdffd5637568332bc6f246b9ca3">More...</a><br /></td></tr>
 <tr class="separator:acdf06cdffd5637568332bc6f246b9ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ec024f7c0dafb15a90454acf0077f8"><td class="memItemLeft" align="right" valign="top">GameMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a65ec024f7c0dafb15a90454acf0077f8">GetGameMode</a><code> [get]</code></td></tr>
+<tr class="memdesc:a65ec024f7c0dafb15a90454acf0077f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the game mode. It can only be set by the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>.  <a href="class_game_manager.html#a65ec024f7c0dafb15a90454acf0077f8">More...</a><br /></td></tr>
+<tr class="separator:a65ec024f7c0dafb15a90454acf0077f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_game_manager.html" title="GameManager is a Singleton that controls the game.">GameManager</a> is a Singleton that controls the game. </p>
+<div class="textblock"><p><a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> is a singleton that controls the game. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6afebb0be6247f0533f8fa456eb236a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6afebb0be6247f0533f8fa456eb236a1">&#9670;&nbsp;</a></span>DebugOnTimerFinish()</h2>
@@ -235,7 +243,58 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
       </table>
 </div><div class="memdoc">
 
-<p>Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="Gets called, when a player arrives at the ground floor and displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="Gets called, when a player arrives at the ground floor and displays the winner.">GameOver(uint)</a> </p>
+<p>Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver(uint)</a> </p>
+
+</div>
+</div>
+<a id="a7d8d5519e64ea6b30cf7f66676822abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d8d5519e64ea6b30cf7f66676822abc">&#9670;&nbsp;</a></span>DebugSetMovementBorders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.DebugSetMovementBorders </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>movementBorderMaxZAxisObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>movementBorderMaxXAxisObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>movementBorderMinZAxisObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>movementBorderMinXAxisObject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to set movementBorder objects in playmode tests. This function is needed to ensure subsequent tests to run smoothly after the playmode tests of the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">movementBorderMaxZAxisObject</td><td>max z-axis border</td></tr>
+    <tr><td class="paramname">movementBorderMaxXAxisObject</td><td>max x-axis border</td></tr>
+    <tr><td class="paramname">movementBorderMinZAxisObject</td><td>min z-axis border</td></tr>
+    <tr><td class="paramname">movementBorderMinXAxisObject</td><td>min x-axis border</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -255,13 +314,37 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
       </table>
 </div><div class="memdoc">
 
-<p>Gets called, when a player arrives at the ground floor and displays the winner. </p>
+<p>This method gets called, when a player arrives at the ground floor. It also displays the winner. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">clientID</td><td></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a47e6bd94dbce7980987f152de271775b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e6bd94dbce7980987f152de271775b">&#9670;&nbsp;</a></span>GetMovementBorders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_movement_borders.html">MovementBorders</a> GameManager.GetMovementBorders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method returns relevant values from the movement border objects. </p>
+<p>See movementBorderMaxZAxisObject</p>
+<p>See movementBorderMaxXAxisObject</p>
+<p>See movementBorderMinZAxisObject</p>
+<p>See movementBorderMinXAxisObject</p>
+<dl class="section return"><dt>Returns</dt><dd>The four floats that represent the movement borders for the player movement</dd></dl>
 
 </div>
 </div>
@@ -281,7 +364,15 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
       </table>
 </div><div class="memdoc">
 
-<p>Get the list of question based on category after the file loaded from database </p>
+<p>Get the list of questions based on category after the file loaded from database. </p>
+<p>The generated list is passed further to methods that shuffle the questions and answers.</p>
+<p>The variable _listOfQuestion is set in <a class="el" href="class_game_manager.html#a89c1a1560c29a0f0d19464e53f70d295" title="This method shuffles the possible answers and sets the variable _listOfQuestion to the resulting list...">ShuffleAnswerOrder(List&lt;Question&gt;)</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">categories</td><td>The list of questions and possible answers.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -301,6 +392,8 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
 </div><div class="memdoc">
 
 <p>Erases the question board text when the game is over. </p>
+<p>This method is a RPC, so it gets called for every client.</p>
+<p>See GameManagerFunctions.EraseEveryQuestionBoardText(ref List&lt;TMP_Text&gt;)</p>
 
 </div>
 </div>
@@ -320,10 +413,65 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
       </table>
 </div><div class="memdoc">
 
-<p>Set the isQuestionReady field </p>
+<p>This method is called when the questions and answers are loaded from the database. The field _isQuestionReady is set to the given argument (e.g. <code>true</code>). </p>
+<p>This method is called in <a class="el" href="class_firebase_manager.html#ab3bea0bbf6646e7323e3192faad8c998" title="Starts the process of loading question.">FirebaseManager.RetrieveFromDatabase(GameMode)</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">isQuestionReady</td><td></td></tr>
+    <tr><td class="paramname">isQuestionReady</td><td>The value that _isQuestionReady should be set to.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a89c1a1560c29a0f0d19464e53f70d295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c1a1560c29a0f0d19464e53f70d295">&#9670;&nbsp;</a></span>ShuffleAnswerOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.ShuffleAnswerOrder </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td>
+          <td class="paramname"><em>questionList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method shuffles the possible answers and sets the variable _listOfQuestion to the resulting list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">questionList</td><td>The list of shuffled questions and possible answers.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac30fcaa317a42adfe29dc3592622f0ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30fcaa317a42adfe29dc3592622f0ff">&#9670;&nbsp;</a></span>ShuffleQuestionOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameManager.ShuffleQuestionOrder </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td>
+          <td class="paramname"><em>questionList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method shuffles the question order. </p>
+<p>The shuffled question list is passed to <a class="el" href="class_game_manager.html#a89c1a1560c29a0f0d19464e53f70d295" title="This method shuffles the possible answers and sets the variable _listOfQuestion to the resulting list...">ShuffleAnswerOrder(List&lt;Question&gt;)</a></p>
+<p>The variable _listOfQuestion is set in <a class="el" href="class_game_manager.html#a89c1a1560c29a0f0d19464e53f70d295" title="This method shuffles the possible answers and sets the variable _listOfQuestion to the resulting list...">ShuffleAnswerOrder(List&lt;Question&gt;)</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">questionList</td><td>The list of questions and possible answers.</td></tr>
   </table>
   </dd>
 </dl>
@@ -345,7 +493,8 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
       </table>
 </div><div class="memdoc">
 
-<p>Adds all connected players to an internal list, sets their points and sets the game state to <code>GameBegin</code>. The timer starts at the end of the method. </p>
+<p>Adds all connected players to an internal list, sets their points and sets the game state to <code>GameBegin</code>. </p>
+<p>The timer starts at the end of the method.</p>
 
 </div>
 </div>
@@ -366,18 +515,19 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
 </div><div class="memdoc">
 
 <p>Starts the timer with the given number of seconds. </p>
+<p>The timer is a coroutine that only the server is allowed to start.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">seconds</td><td>Number of seconds the timer should run</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Coroutine IEnumerator</dd></dl>
 
 </div>
 </div>
-<a id="a651d9711ff8dd773810f34b07fcf96b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a651d9711ff8dd773810f34b07fcf96b0">&#9670;&nbsp;</a></span>UpdatePlayerFloorText()</h2>
+<a id="ac4806b613f6b22bcaf8289384d9e400f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4806b613f6b22bcaf8289384d9e400f">&#9670;&nbsp;</a></span>UpdatePlayerFloorText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,13 +535,111 @@ GameState&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameState</b>
         <tr>
           <td class="memname">void GameManager.UpdatePlayerFloorText </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">List&lt; GameObject &gt;&#160;</td>
+          <td class="paramname"><em>updatePlayerList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">List&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>updateFloors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p></p>
+<p>This method is called by CheckPlayerFloors() when one or more players entered a new floor. It calls RpcUpdatePlayerFloorText(List&lt;GameObject&gt;, List&lt;int&gt;) that updates the player info UI for every client. </p>
+<p>The two arguments are meant to be use like a dictionary, but Mirror RPCs cannot handle Dictionary&lt;GameObject, int&gt;.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">updatePlayerList</td><td>A list of integers that represents the new floors that should be displayed in the player info UI.</td></tr>
+    <tr><td class="paramname">updateFloors</td><td>A list of references to the player game objects that entered a new floor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a65ec024f7c0dafb15a90454acf0077f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ec024f7c0dafb15a90454acf0077f8">&#9670;&nbsp;</a></span>GetGameMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameMode GameManager.GetGameMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Getter for the game mode. It can only be set by the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>. </p>
+
+</div>
+</div>
+<a id="acdf06cdffd5637568332bc6f246b9ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf06cdffd5637568332bc6f246b9ca3">&#9670;&nbsp;</a></span>GetGameState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameState GameManager.GetGameState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Getter for the game state. It can only be set by the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>. </p>
+
+</div>
+</div>
+<a id="ad3e717f4fb0f378b969f4457de81f23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e717f4fb0f378b969f4457de81f23e">&#9670;&nbsp;</a></span>Instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_manager.html">GameManager</a> GameManager.Instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Getter for the game manager instance. If someone wants to set the game manager to a new instance, an <code>Expection</code> will be thrown. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception()</td><td>Cannot set <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>'s instance, see Exception()</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('class_player_controller.html',''); ini
 <div class="title">PlayerController Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Implements the functionality needed for the Player.  
+ <a href="class_player_controller.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PlayerController:</div>
 <div class="dyncontent">
@@ -100,16 +103,17 @@ Inheritance diagram for PlayerController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa274be913417ca85d0cf5fc0afd93696"><td class="memItemLeft" align="right" valign="top"><a id="aa274be913417ca85d0cf5fc0afd93696"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnStartLocalPlayer</b> ()</td></tr>
+<tr class="memitem:aa274be913417ca85d0cf5fc0afd93696"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#aa274be913417ca85d0cf5fc0afd93696">OnStartLocalPlayer</a> ()</td></tr>
+<tr class="memdesc:aa274be913417ca85d0cf5fc0afd93696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overrides  <a href="class_player_controller.html#aa274be913417ca85d0cf5fc0afd93696">More...</a><br /></td></tr>
 <tr class="separator:aa274be913417ca85d0cf5fc0afd93696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f8cd3cd72450cde80e8babe4d7b3c89"><td class="memItemLeft" align="right" valign="top"><a id="a1f8cd3cd72450cde80e8babe4d7b3c89"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetYStart</b> (float y)</td></tr>
+<tr class="memitem:a1f8cd3cd72450cde80e8babe4d7b3c89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#a1f8cd3cd72450cde80e8babe4d7b3c89">SetYStart</a> (float y)</td></tr>
+<tr class="memdesc:a1f8cd3cd72450cde80e8babe4d7b3c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts the current Y-position of the player.  <a href="class_player_controller.html#a1f8cd3cd72450cde80e8babe4d7b3c89">More...</a><br /></td></tr>
 <tr class="separator:a1f8cd3cd72450cde80e8babe4d7b3c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2a8656e27eff5e758c96a78299acc8f"><td class="memItemLeft" align="right" valign="top"><a id="af2a8656e27eff5e758c96a78299acc8f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RpcSetPlayerMovementValuesDefaultOrZero</b> (bool toDefault)</td></tr>
+<tr class="memitem:af2a8656e27eff5e758c96a78299acc8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#af2a8656e27eff5e758c96a78299acc8f">RpcSetPlayerMovementValuesDefaultOrZero</a> (bool toDefault)</td></tr>
+<tr class="memdesc:af2a8656e27eff5e758c96a78299acc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freezes player movement or resets the movement values to default.  <a href="class_player_controller.html#af2a8656e27eff5e758c96a78299acc8f">More...</a><br /></td></tr>
 <tr class="separator:af2a8656e27eff5e758c96a78299acc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088a3ab391d713798c26c60ec60cbd15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#a088a3ab391d713798c26c60ec60cbd15">GenerateFloors</a> (int count, float height, float startPosition, <a class="el" href="struct_level_creation_prefabs.html">LevelCreationPrefabs</a> levelPrefabs, List&lt; GameObject &gt; furniturePrefabs)</td></tr>
+<tr class="memdesc:a088a3ab391d713798c26c60ec60cbd15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the level procedural if the level has not been created for the player yet.  <a href="class_player_controller.html#a088a3ab391d713798c26c60ec60cbd15">More...</a><br /></td></tr>
 <tr class="separator:a088a3ab391d713798c26c60ec60cbd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -124,7 +128,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultPlayerJumpFor
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>WasLevelCreated</b><code> [get]</code></td></tr>
 <tr class="separator:adb6d8c6716ff26b8f80e1b029f224c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Implements the functionality needed for the Player. </p>
+<p>Every Player GameObject got a <a class="el" href="class_player_controller.html" title="Implements the functionality needed for the Player.">PlayerController</a> component.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a088a3ab391d713798c26c60ec60cbd15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a088a3ab391d713798c26c60ec60cbd15">&#9670;&nbsp;</a></span>GenerateFloors()</h2>
 
@@ -169,18 +176,94 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>WasLevelCreated</b><c
       </table>
 </div><div class="memdoc">
 
-<p></p>
+<p>Generates the level procedural if the level has not been created for the player yet. </p>
+<p>See <a class="el" href="struct_level_creation_prefabs.html">LevelCreationPrefabs</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">count</td><td></td></tr>
-    <tr><td class="paramname">height</td><td></td></tr>
-    <tr><td class="paramname">startPosition</td><td></td></tr>
-    <tr><td class="paramname">levelPrefabs</td><td></td></tr>
-    <tr><td class="paramname">furniturePrefabs</td><td></td></tr>
+    <tr><td class="paramname">count</td><td>floor count to generate</td></tr>
+    <tr><td class="paramname">height</td><td>height of each floor</td></tr>
+    <tr><td class="paramname">startPosition</td><td>start position</td></tr>
+    <tr><td class="paramname">levelPrefabs</td><td>floor prefabs to create level with</td></tr>
+    <tr><td class="paramname">furniturePrefabs</td><td>furniture prefabs to decorate floor with</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>number of created floors if the creation was successful. Else -1.</dd></dl>
+
+</div>
+</div>
+<a id="aa274be913417ca85d0cf5fc0afd93696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa274be913417ca85d0cf5fc0afd93696">&#9670;&nbsp;</a></span>OnStartLocalPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void PlayerController.OnStartLocalPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Overrides </p>
+<p><code>OnStartLocalPlayer</code> of NetworkBehavior. </p>
+<p>This function is called when a new local player object is created &amp; sets the local player to the target of the camera to follow.</p>
+
+</div>
+</div>
+<a id="af2a8656e27eff5e758c96a78299acc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a8656e27eff5e758c96a78299acc8f">&#9670;&nbsp;</a></span>RpcSetPlayerMovementValuesDefaultOrZero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerController.RpcSetPlayerMovementValuesDefaultOrZero </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toDefault</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Freezes player movement or resets the movement values to default. </p>
+<p>This function is used when the correct answer is revealed to prevent the player from moving.</p>
+<p>This function is only run on Client entities when called by the server entity.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">toDefault</td><td>If the movement values should be set to default or the player movement should be frozen</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1f8cd3cd72450cde80e8babe4d7b3c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8cd3cd72450cde80e8babe4d7b3c89">&#9670;&nbsp;</a></span>SetYStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerController.SetYStart </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adjusts the current Y-position of the player. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>New Y-position</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

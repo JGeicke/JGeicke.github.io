@@ -96,14 +96,14 @@ $(document).ready(function(){initNavTree('class_player_movement.html',''); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6da8dae3cfc018741b5603153a512510"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#a6da8dae3cfc018741b5603153a512510">Move</a> (<a class="el" href="struct_player_input.html">PlayerInput</a> playerInput, float deltaTime=1f)</td></tr>
-<tr class="memdesc:a6da8dae3cfc018741b5603153a512510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new movement for the player based on its input and returns it. It is called by PlayerController::Move()  <a href="class_player_movement.html#a6da8dae3cfc018741b5603153a512510">More...</a><br /></td></tr>
-<tr class="separator:a6da8dae3cfc018741b5603153a512510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6cafce7df25863ab613816ae66bd6ed"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#aa6cafce7df25863ab613816ae66bd6ed">Move</a> (<a class="el" href="struct_player_input.html">PlayerInput</a> playerInput, float deltaTime=1f)</td></tr>
+<tr class="memdesc:aa6cafce7df25863ab613816ae66bd6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new movement for the player based on its input and returns it. It is called by PlayerController::Move()  <a href="class_player_movement.html#aa6cafce7df25863ab613816ae66bd6ed">More...</a><br /></td></tr>
+<tr class="separator:aa6cafce7df25863ab613816ae66bd6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac576128e1716af123b9c623f703168"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#a7ac576128e1716af123b9c623f703168">Jump</a> (<a class="el" href="struct_player_input.html">PlayerInput</a> playerInput, bool isGrounded, float playerJumpForce, float deltaTime=1f)</td></tr>
 <tr class="memdesc:a7ac576128e1716af123b9c623f703168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new jump vector for the player based on its input and returns it. It is called by PlayerController::Jump()  <a href="class_player_movement.html#a7ac576128e1716af123b9c623f703168">More...</a><br /></td></tr>
 <tr class="separator:a7ac576128e1716af123b9c623f703168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01284483cf2a1f21717fbbf8a511811c"><td class="memItemLeft" align="right" valign="top"><a id="a01284483cf2a1f21717fbbf8a511811c"></a>
-static Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBorders</b> (Vector3 position, <a class="el" href="struct_movement_borders.html">MovementBorders</a> movementBorders)</td></tr>
+<tr class="memitem:a01284483cf2a1f21717fbbf8a511811c"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#a01284483cf2a1f21717fbbf8a511811c">CheckBorders</a> (Vector3 position, <a class="el" href="struct_movement_borders.html">MovementBorders</a> movementBorders)</td></tr>
+<tr class="memdesc:a01284483cf2a1f21717fbbf8a511811c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the position is within the movement borders.  <a href="class_player_movement.html#a01284483cf2a1f21717fbbf8a511811c">More...</a><br /></td></tr>
 <tr class="separator:a01284483cf2a1f21717fbbf8a511811c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd46aa4ea4246ca01760d55b1ae40dd"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#abbd46aa4ea4246ca01760d55b1ae40dd">CalcSlownessFactor</a> (float horizontal, float vertical)</td></tr>
 <tr class="memdesc:abbd46aa4ea4246ca01760d55b1ae40dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a slowness factor when the player presses 2 input buttons simultaneously.  <a href="class_player_movement.html#abbd46aa4ea4246ca01760d55b1ae40dd">More...</a><br /></td></tr>
@@ -149,12 +149,60 @@ static Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBorder
 <p>Calculates a slowness factor when the player presses 2 input buttons simultaneously. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">horizontal</td><td></td></tr>
-    <tr><td class="paramname">vertical</td><td></td></tr>
+    <tr><td class="paramname">horizontal</td><td>Horizontal axis input</td></tr>
+    <tr><td class="paramname">vertical</td><td>Vertical axis input</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The calculated slowness factor.</dd></dl>
+
+</div>
+</div>
+<a id="a01284483cf2a1f21717fbbf8a511811c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01284483cf2a1f21717fbbf8a511811c">&#9670;&nbsp;</a></span>CheckBorders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 PlayerMovement.CheckBorders </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_movement_borders.html">MovementBorders</a>&#160;</td>
+          <td class="paramname"><em>movementBorders</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the position is within the movement borders. </p>
+<p>If the position is not within the movement borders, the position is changed to be within.</p>
+<p>See <a class="el" href="struct_movement_borders.html">MovementBorders</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>Position to check if its within the movement borders.</td></tr>
+    <tr><td class="paramname">movementBorders</td><td>The Movement borders.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Checked or adjusted position.</dd></dl>
 
 </div>
 </div>
@@ -218,8 +266,8 @@ static Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBorder
 
 </div>
 </div>
-<a id="a6da8dae3cfc018741b5603153a512510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6da8dae3cfc018741b5603153a512510">&#9670;&nbsp;</a></span>Move()</h2>
+<a id="aa6cafce7df25863ab613816ae66bd6ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6cafce7df25863ab613816ae66bd6ed">&#9670;&nbsp;</a></span>Move()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +276,7 @@ static Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBorder
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Vector3 PlayerMovement.Move </td>
+          <td class="memname">static Vector2 PlayerMovement.Move </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_player_input.html">PlayerInput</a>&#160;</td>
           <td class="paramname"><em>playerInput</em>, </td>

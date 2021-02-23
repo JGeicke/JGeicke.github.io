@@ -90,6 +90,9 @@ $(document).ready(function(){initNavTree('class_custom_network_manager.html','')
 <div class="title">CustomNetworkManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Custome NetworkManager class that overrides  
+ <a href="class_custom_network_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for CustomNetworkManager:</div>
 <div class="dyncontent">
@@ -99,14 +102,17 @@ Inheritance diagram for CustomNetworkManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a21576a1b480fa73ccda1867c2a993b83"><td class="memItemLeft" align="right" valign="top"><a id="a21576a1b480fa73ccda1867c2a993b83"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameManager</b> (GameObject newGameManager)</td></tr>
+<tr class="memitem:a21576a1b480fa73ccda1867c2a993b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_network_manager.html#a21576a1b480fa73ccda1867c2a993b83">SetGameManager</a> (GameObject newGameManager)</td></tr>
+<tr class="memdesc:a21576a1b480fa73ccda1867c2a993b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reference of the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> object in the current scene.  <a href="class_custom_network_manager.html#a21576a1b480fa73ccda1867c2a993b83">More...</a><br /></td></tr>
 <tr class="separator:a21576a1b480fa73ccda1867c2a993b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af75fa730e3bb03d286f82f7600d70b1d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d">OnStartServer</a> ()</td></tr>
 <tr class="memdesc:af75fa730e3bb03d286f82f7600d70b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to the game manager and adds all start positions.  <a href="class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d">More...</a><br /></td></tr>
 <tr class="separator:af75fa730e3bb03d286f82f7600d70b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Custome NetworkManager class that overrides </p>
+<p><code><a class="el" href="class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d" title="Gets a reference to the game manager and adds all start positions.">OnStartServer()</a></code> of the Mirror NetworkManager.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af75fa730e3bb03d286f82f7600d70b1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75fa730e3bb03d286f82f7600d70b1d">&#9670;&nbsp;</a></span>OnStartServer()</h2>
 
@@ -123,6 +129,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameManager</b> (G
 </div><div class="memdoc">
 
 <p>Gets a reference to the game manager and adds all start positions. </p>
+<p>This function overrides the <code>OnStartServer</code> of the NetworkManager in Mirror.</p>
+
+</div>
+</div>
+<a id="a21576a1b480fa73ccda1867c2a993b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21576a1b480fa73ccda1867c2a993b83">&#9670;&nbsp;</a></span>SetGameManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CustomNetworkManager.SetGameManager </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>newGameManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the reference of the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> object in the current scene. </p>
+<p>This function is needed for tests.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newGameManager</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
