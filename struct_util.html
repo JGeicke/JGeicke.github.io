@@ -90,15 +90,70 @@ $(document).ready(function(){initNavTree('struct_util.html',''); initResizable()
 <div class="title">Util Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This structure implements a variety of functions used across the project.  
+ <a href="struct_util.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afa7391ec42043461bf01ad2b53f434dc"><td class="memItemLeft" align="right" valign="top"><a id="afa7391ec42043461bf01ad2b53f434dc"></a>
-static List&lt; uint &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateRange</b> (uint first, uint last)</td></tr>
+<tr class="memitem:afa7391ec42043461bf01ad2b53f434dc"><td class="memItemLeft" align="right" valign="top">static List&lt; uint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_util.html#afa7391ec42043461bf01ad2b53f434dc">GenerateRange</a> (uint first, uint last)</td></tr>
+<tr class="memdesc:afa7391ec42043461bf01ad2b53f434dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list of every number in defined range.  <a href="struct_util.html#afa7391ec42043461bf01ad2b53f434dc">More...</a><br /></td></tr>
 <tr class="separator:afa7391ec42043461bf01ad2b53f434dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This structure implements a variety of functions used across the project. </p>
+<p>These functions do not fit in a specific class or structure.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa7391ec42043461bf01ad2b53f434dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7391ec42043461bf01ad2b53f434dc">&#9670;&nbsp;</a></span>GenerateRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt;uint&gt; Util.GenerateRange </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a list of every number in defined range. </p>
+<p>This function is used in the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a> to create the player unique identifier.</p>
+<p>See: <a class="el" href="class_game_manager.html#a9193c24424f6a10c7d9df407264ed4fa" title="Adds all connected players to an internal list, sets their points and sets the game state to GameBegi...">GameManager.StartGame</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>Lowest number in range.</td></tr>
+    <tr><td class="paramname">last</td><td>Highest number in range.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of every number in a defined range.</dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Assets/Scripts/PublicStructs.cs</li>
+<li>Assets/Scripts/Util.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

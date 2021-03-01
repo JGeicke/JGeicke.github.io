@@ -4,7 +4,7 @@ var class_game_manager =
     [ "DebugResetGameState", "class_game_manager.html#a5dbf20cac6447720af105cd7197d5ca3", null ],
     [ "DebugSetInfotext", "class_game_manager.html#a628bbac002425a90ebf170f5639592a0", null ],
     [ "DebugSetMovementBorders", "class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc", null ],
-    [ "GameOver", "class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497", null ],
+    [ "GameOver", "class_game_manager.html#a87c102c03d955590e5a74a292944bfdc", null ],
     [ "GetMovementBorders", "class_game_manager.html#a47e6bd94dbce7980987f152de271775b", null ],
     [ "GetQuestionList", "class_game_manager.html#a19b4d0e8df15c7e5ee1e5009d88783d7", null ],
     [ "RpcEraseQuestionBoardText", "class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9", null ],

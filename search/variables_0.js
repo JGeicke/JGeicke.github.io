@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['instance_240',['instance',['../class_firebase_manager.html#a1c2bd1e06e19ee57e470746a779021d8',1,'FirebaseManager']]]
+  ['category_241',['category',['../class_question_list.html#aef54a4bd82be9ce516d616dccbc6ae2d',1,'QuestionList']]]
 ];

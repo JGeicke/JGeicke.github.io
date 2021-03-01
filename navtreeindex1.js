@@ -1,5 +1,10 @@
 var NAVTREEINDEX1 =
 {
+"namespace_editor.html":[1,0,0],
+"namespace_editor_1_1_edit_mode_tests.html":[1,0,0,0],
+"namespace_editor_1_1_play_mode_tests.html":[1,0,0,1],
+"namespace_simple_j_s_o_n.html":[1,0,1],
+"namespace_simple_j_s_o_n.html#a3981ef39adf14ef6bd21bd800720ca0e":[1,0,1,8],
 "namespace_simple_j_s_o_n.html#a3981ef39adf14ef6bd21bd800720ca0ea497470e76a40fc53e14c0df9b4e4ec9f":[1,0,1,8,1],
 "namespace_simple_j_s_o_n.html#a3981ef39adf14ef6bd21bd800720ca0eab1fe2c2a59e883740e7ea87667e44a24":[1,0,1,8,0],
 "namespace_simple_j_s_o_n.html#a62af00acc7925cc0284e634fb10626f5":[1,0,1,7],
@@ -22,11 +27,11 @@ var NAVTREEINDEX1 =
 "struct_movement_borders.html#a447b32fedee4cb292c38696288c02c31":[2,0,14,3],
 "struct_movement_borders.html#a65e92882a6dac6b44da12bf6b408db59":[2,0,14,1],
 "struct_movement_borders.html#a85ef14bdfbf166338334f783c46b5a69":[2,0,14,2],
-"struct_player_input.html":[2,0,16],
-"struct_player_input.html#a006daa3d23d62e69951f19ff235a4d1b":[2,0,16,3],
-"struct_player_input.html#a184c4377605d8d3437ee86a35d59e6c8":[2,0,16,0],
-"struct_player_input.html#aba4e7788b01e1439f7f6796e0d2e6a37":[2,0,16,1],
-"struct_player_input.html#af913e248f65c898a9f1f73a1b29c8dcc":[2,0,16,2],
+"struct_player_input.html":[2,0,17],
+"struct_player_input.html#a006daa3d23d62e69951f19ff235a4d1b":[2,0,17,3],
+"struct_player_input.html#a184c4377605d8d3437ee86a35d59e6c8":[2,0,17,0],
+"struct_player_input.html#aba4e7788b01e1439f7f6796e0d2e6a37":[2,0,17,1],
+"struct_player_input.html#af913e248f65c898a9f1f73a1b29c8dcc":[2,0,17,2],
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_enumerator.html":[2,0,1,0,0],
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_enumerator.html#a0e0ae1411677cc0042b5ed8389b7305b":[2,0,1,0,0,2],
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_enumerator.html#a76ddaa34c7f9b13ce4291eca03d3bb45":[2,0,1,0,0,4],
@@ -47,5 +52,5 @@ var NAVTREEINDEX1 =
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_value_enumerator.html#a38e0a67677187f9ec68e489da5822065":[2,0,1,0,3,4],
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_value_enumerator.html#a76344ba59d08a80f4bd2f4f67547c584":[2,0,1,0,3,0],
 "struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_value_enumerator.html#aa77f9678b91d158c949e186a19a7d6a3":[2,0,1,0,3,2],
-"struct_util.html":[2,0,21]
+"struct_util.html":[2,0,22]
 };

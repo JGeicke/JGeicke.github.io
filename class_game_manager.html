@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a26a14d4002e55ec529a607ff4ff2fab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9">RpcEraseQuestionBoardText</a> ()</td></tr>
 <tr class="memdesc:a26a14d4002e55ec529a607ff4ff2fab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the question board text when the game is over.  <a href="class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9">More...</a><br /></td></tr>
 <tr class="separator:a26a14d4002e55ec529a607ff4ff2fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ee56efb67ca90fa5c4efee36b25f497"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497">GameOver</a> (uint clientID)</td></tr>
-<tr class="memdesc:a5ee56efb67ca90fa5c4efee36b25f497"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method gets called, when a player arrives at the ground floor. It also displays the winner.  <a href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497">More...</a><br /></td></tr>
-<tr class="separator:a5ee56efb67ca90fa5c4efee36b25f497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c102c03d955590e5a74a292944bfdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a87c102c03d955590e5a74a292944bfdc">GameOver</a> (string name)</td></tr>
+<tr class="memdesc:a87c102c03d955590e5a74a292944bfdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method gets called, when a player arrives at the ground floor. It also displays the winner.  <a href="class_game_manager.html#a87c102c03d955590e5a74a292944bfdc">More...</a><br /></td></tr>
+<tr class="separator:a87c102c03d955590e5a74a292944bfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4806b613f6b22bcaf8289384d9e400f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ac4806b613f6b22bcaf8289384d9e400f">UpdatePlayerFloorText</a> (List&lt; GameObject &gt; updatePlayerList, List&lt; int &gt; updateFloors)</td></tr>
 <tr class="memdesc:ac4806b613f6b22bcaf8289384d9e400f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called by CheckPlayerFloors() when one or more players entered a new floor. It calls RpcUpdatePlayerFloorText(List&lt;GameObject&gt;, List&lt;int&gt;) that updates the player info UI for every client.  <a href="class_game_manager.html#ac4806b613f6b22bcaf8289384d9e400f">More...</a><br /></td></tr>
 <tr class="separator:ac4806b613f6b22bcaf8289384d9e400f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5dbf20cac6447720af105cd7197d5ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets GameState to accurately test game flow. Should only be used inside of playmode tests to not disrupt the flow of the game.  <a href="class_game_manager.html#a5dbf20cac6447720af105cd7197d5ca3">More...</a><br /></td></tr>
 <tr class="separator:a5dbf20cac6447720af105cd7197d5ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a628bbac002425a90ebf170f5639592a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">DebugSetInfotext</a> ()</td></tr>
-<tr class="memdesc:a628bbac002425a90ebf170f5639592a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver(uint)</a>  <a href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">More...</a><br /></td></tr>
+<tr class="memdesc:a628bbac002425a90ebf170f5639592a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a87c102c03d955590e5a74a292944bfdc" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. GameOver(uint)  <a href="class_game_manager.html#a628bbac002425a90ebf170f5639592a0">More...</a><br /></td></tr>
 <tr class="separator:a628bbac002425a90ebf170f5639592a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8d5519e64ea6b30cf7f66676822abc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc">DebugSetMovementBorders</a> (GameObject movementBorderMaxZAxisObject, GameObject movementBorderMaxXAxisObject, GameObject movementBorderMinZAxisObject, GameObject movementBorderMinXAxisObject)</td></tr>
 <tr class="memdesc:a7d8d5519e64ea6b30cf7f66676822abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set movementBorder objects in playmode tests. This function is needed to ensure subsequent tests to run smoothly after the playmode tests of the <a class="el" href="class_game_manager.html" title="GameManager is a singleton that controls the game.">GameManager</a>. It should only be used inside of playmode tests to not disrupt the flow of the game.  <a href="class_game_manager.html#a7d8d5519e64ea6b30cf7f66676822abc">More...</a><br /></td></tr>
@@ -160,6 +160,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aa5783d92b603b95bc8ee7ecab4bad6ba"><td class="memItemLeft" align="right" valign="top"><a id="aa5783d92b603b95bc8ee7ecab4bad6ba"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>gameStarted</b> = false</td></tr>
 <tr class="separator:aa5783d92b603b95bc8ee7ecab4bad6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d193f850d6abd4efbc6f4a25454e36b"><td class="memItemLeft" align="right" valign="top"><a id="a8d193f850d6abd4efbc6f4a25454e36b"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFramework</b> = true</td></tr>
+<tr class="separator:a8d193f850d6abd4efbc6f4a25454e36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -243,7 +246,7 @@ uint&#160;</td><td class="memItemRight" valign="bottom"><b>PointsForCorrectAnswe
       </table>
 </div><div class="memdoc">
 
-<p>Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. <a class="el" href="class_game_manager.html#a5ee56efb67ca90fa5c4efee36b25f497" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver(uint)</a> </p>
+<p>Function to create &amp; set infotext object. This function is needed for the playmode tests of <a class="el" href="class_game_manager.html#a87c102c03d955590e5a74a292944bfdc" title="This method gets called, when a player arrives at the ground floor. It also displays the winner.">GameOver()</a>. It should only be used inside of playmode tests to not disrupt the flow of the game. GameOver(uint) </p>
 
 </div>
 </div>
@@ -298,8 +301,8 @@ uint&#160;</td><td class="memItemRight" valign="bottom"><b>PointsForCorrectAnswe
 
 </div>
 </div>
-<a id="a5ee56efb67ca90fa5c4efee36b25f497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ee56efb67ca90fa5c4efee36b25f497">&#9670;&nbsp;</a></span>GameOver()</h2>
+<a id="a87c102c03d955590e5a74a292944bfdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c102c03d955590e5a74a292944bfdc">&#9670;&nbsp;</a></span>GameOver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,8 +310,8 @@ uint&#160;</td><td class="memItemRight" valign="bottom"><b>PointsForCorrectAnswe
         <tr>
           <td class="memname">void GameManager.GameOver </td>
           <td>(</td>
-          <td class="paramtype">uint&#160;</td>
-          <td class="paramname"><em>clientID</em></td><td>)</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['playercontroller_60',['PlayerController',['../class_player_controller.html',1,'']]],
-  ['playerinput_61',['PlayerInput',['../struct_player_input.html',1,'']]],
-  ['playermovement_62',['PlayerMovement',['../class_player_movement.html',1,'']]],
-  ['pointtrigger_63',['PointTrigger',['../class_point_trigger.html',1,'']]]
+  ['question_72',['Question',['../class_question.html',1,'Question'],['../class_question.html#a096a2011ddd4b5414000f74fd29c86dc',1,'Question.Question()'],['../class_question.html#a2344a4bf5fcd106bf7458a5863c3ae74',1,'Question.Question(string question, string rightAnswer, List&lt; string &gt; listOfAnswer)']]],
+  ['questionlist_73',['QuestionList',['../class_question_list.html',1,'']]]
 ];

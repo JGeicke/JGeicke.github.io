@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['updateplayerfloortext_119',['UpdatePlayerFloorText',['../class_game_manager.html#ac4806b613f6b22bcaf8289384d9e400f',1,'GameManager']]],
-  ['util_120',['Util',['../struct_util.html',1,'']]]
+  ['verticalinput_129',['VerticalInput',['../struct_player_input.html#a006daa3d23d62e69951f19ff235a4d1b',1,'PlayerInput']]]
 ];

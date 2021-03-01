@@ -18,15 +18,6 @@ var annotated_dup =
         [ "TestPlayerMovement", "class_editor_1_1_play_mode_tests_1_1_test_player_movement.html", "class_editor_1_1_play_mode_tests_1_1_test_player_movement" ]
       ] ]
     ] ],
-    [ "SimpleJSON", "namespace_simple_j_s_o_n.html", [
-      [ "JSONNode", "class_simple_j_s_o_n_1_1_j_s_o_n_node.html", "class_simple_j_s_o_n_1_1_j_s_o_n_node" ],
-      [ "JSONArray", "class_simple_j_s_o_n_1_1_j_s_o_n_array.html", "class_simple_j_s_o_n_1_1_j_s_o_n_array" ],
-      [ "JSONObject", "class_simple_j_s_o_n_1_1_j_s_o_n_object.html", "class_simple_j_s_o_n_1_1_j_s_o_n_object" ],
-      [ "JSONString", "class_simple_j_s_o_n_1_1_j_s_o_n_string.html", "class_simple_j_s_o_n_1_1_j_s_o_n_string" ],
-      [ "JSONNumber", "class_simple_j_s_o_n_1_1_j_s_o_n_number.html", "class_simple_j_s_o_n_1_1_j_s_o_n_number" ],
-      [ "JSONBool", "class_simple_j_s_o_n_1_1_j_s_o_n_bool.html", "class_simple_j_s_o_n_1_1_j_s_o_n_bool" ],
-      [ "JSONNull", "class_simple_j_s_o_n_1_1_j_s_o_n_null.html", "class_simple_j_s_o_n_1_1_j_s_o_n_null" ]
-    ] ],
     [ "AllCategoriesQuestion", "class_all_categories_question.html", "class_all_categories_question" ],
     [ "AnswerFieldTrigger", "class_answer_field_trigger.html", null ],
     [ "ButtonStartGameBehaviour", "class_button_start_game_behaviour.html", "class_button_start_game_behaviour" ],
@@ -40,6 +31,7 @@ var annotated_dup =
     [ "LevelCreationPrefabs", "struct_level_creation_prefabs.html", "struct_level_creation_prefabs" ],
     [ "LevelGenerationTriggerBehaviour", "class_level_generation_trigger_behaviour.html", "class_level_generation_trigger_behaviour" ],
     [ "MovementBorders", "struct_movement_borders.html", "struct_movement_borders" ],
+    [ "Player", "class_player.html", "class_player" ],
     [ "PlayerController", "class_player_controller.html", "class_player_controller" ],
     [ "PlayerInput", "struct_player_input.html", "struct_player_input" ],
     [ "PlayerMovement", "class_player_movement.html", null ],

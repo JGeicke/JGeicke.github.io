@@ -90,21 +90,77 @@ $(document).ready(function(){initNavTree('struct_level_creation_prefabs.html',''
 <div class="title">LevelCreationPrefabs Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This structure defines the base GameObjects used in the level generation.  
+ <a href="struct_level_creation_prefabs.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9b305b715c8ccd9098a4f7403f3276e9"><td class="memItemLeft" align="right" valign="top"><a id="a9b305b715c8ccd9098a4f7403f3276e9"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>groundFloor</b></td></tr>
+<tr class="memitem:a9b305b715c8ccd9098a4f7403f3276e9"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_level_creation_prefabs.html#a9b305b715c8ccd9098a4f7403f3276e9">groundFloor</a></td></tr>
+<tr class="memdesc:a9b305b715c8ccd9098a4f7403f3276e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ground floor GameObject. When a player reaches this floor, the round is finished.  <a href="struct_level_creation_prefabs.html#a9b305b715c8ccd9098a4f7403f3276e9">More...</a><br /></td></tr>
 <tr class="separator:a9b305b715c8ccd9098a4f7403f3276e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef586b5390ff7b10559fbb624688d87"><td class="memItemLeft" align="right" valign="top"><a id="a7ef586b5390ff7b10559fbb624688d87"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>topFloor</b></td></tr>
+<tr class="memitem:a7ef586b5390ff7b10559fbb624688d87"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_level_creation_prefabs.html#a7ef586b5390ff7b10559fbb624688d87">topFloor</a></td></tr>
+<tr class="memdesc:a7ef586b5390ff7b10559fbb624688d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">The top floor GameObject. Every player starts out on this floor.  <a href="struct_level_creation_prefabs.html#a7ef586b5390ff7b10559fbb624688d87">More...</a><br /></td></tr>
 <tr class="separator:a7ef586b5390ff7b10559fbb624688d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d9e2618c2dd5f8dbc269631fcb3fc0"><td class="memItemLeft" align="right" valign="top"><a id="ab1d9e2618c2dd5f8dbc269631fcb3fc0"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>midFloor</b></td></tr>
+<tr class="memitem:ab1d9e2618c2dd5f8dbc269631fcb3fc0"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_level_creation_prefabs.html#ab1d9e2618c2dd5f8dbc269631fcb3fc0">midFloor</a></td></tr>
+<tr class="memdesc:ab1d9e2618c2dd5f8dbc269631fcb3fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mid floor GameObject. Every floor between the top and ground floor is considered a mid floor.  <a href="struct_level_creation_prefabs.html#ab1d9e2618c2dd5f8dbc269631fcb3fc0">More...</a><br /></td></tr>
 <tr class="separator:ab1d9e2618c2dd5f8dbc269631fcb3fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This structure defines the base GameObjects used in the level generation. </p>
+<p>The GameObjects can be freely switched to create different levels.</p>
+<p>See: PlayerController.GenerateFloors(int, float, float, LevelCreationPrefabs, System.Collections.Generic.List&lt;UnityEngine.GameObject&gt;)</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9b305b715c8ccd9098a4f7403f3276e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b305b715c8ccd9098a4f7403f3276e9">&#9670;&nbsp;</a></span>groundFloor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject LevelCreationPrefabs.groundFloor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The ground floor GameObject. When a player reaches this floor, the round is finished. </p>
+
+</div>
+</div>
+<a id="ab1d9e2618c2dd5f8dbc269631fcb3fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d9e2618c2dd5f8dbc269631fcb3fc0">&#9670;&nbsp;</a></span>midFloor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject LevelCreationPrefabs.midFloor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The mid floor GameObject. Every floor between the top and ground floor is considered a mid floor. </p>
+
+</div>
+</div>
+<a id="a7ef586b5390ff7b10559fbb624688d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef586b5390ff7b10559fbb624688d87">&#9670;&nbsp;</a></span>topFloor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject LevelCreationPrefabs.topFloor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The top floor GameObject. Every player starts out on this floor. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Assets/Scripts/PublicStructs.cs</li>
+<li>Assets/Scripts/LevelCreationPrefabs.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

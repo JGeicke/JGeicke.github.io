@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['onstartbuttonclick_57',['OnStartButtonClick',['../class_button_start_game_behaviour.html#a655a193860d27055b48b26c49e2140b2',1,'ButtonStartGameBehaviour']]],
-  ['onstartlocalplayer_58',['OnStartLocalPlayer',['../class_player_controller.html#aa274be913417ca85d0cf5fc0afd93696',1,'PlayerController']]],
-  ['onstartserver_59',['OnStartServer',['../class_custom_network_manager.html#af75fa730e3bb03d286f82f7600d70b1d',1,'CustomNetworkManager']]]
+  ['player_66',['Player',['../class_player.html',1,'']]],
+  ['playercontroller_67',['PlayerController',['../class_player_controller.html',1,'']]],
+  ['playerinput_68',['PlayerInput',['../struct_player_input.html',1,'']]],
+  ['playermovement_69',['PlayerMovement',['../class_player_movement.html',1,'']]],
+  ['playername_70',['playerName',['../class_player.html#a292e01bbe2c348e7d56426d819e2ffad',1,'Player']]],
+  ['pointtrigger_71',['PointTrigger',['../class_point_trigger.html',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['question_64',['Question',['../class_question.html',1,'Question'],['../class_question.html#a096a2011ddd4b5414000f74fd29c86dc',1,'Question.Question()'],['../class_question.html#a2344a4bf5fcd106bf7458a5863c3ae74',1,'Question.Question(string question, string rightAnswer, List&lt; string &gt; listOfAnswer)']]],
-  ['questionlist_65',['QuestionList',['../class_question_list.html',1,'']]]
+  ['retrievefromdatabase_74',['RetrieveFromDatabase',['../class_firebase_manager.html#ab3bea0bbf6646e7323e3192faad8c998',1,'FirebaseManager']]],
+  ['rpcerasequestionboardtext_75',['RpcEraseQuestionBoardText',['../class_game_manager.html#a26a14d4002e55ec529a607ff4ff2fab9',1,'GameManager']]],
+  ['rpcsetplayermovementvaluesdefaultorzero_76',['RpcSetPlayerMovementValuesDefaultOrZero',['../class_player_controller.html#af2a8656e27eff5e758c96a78299acc8f',1,'PlayerController']]]
 ];

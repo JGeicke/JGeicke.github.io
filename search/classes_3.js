@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['enumerator_128',['Enumerator',['../struct_simple_j_s_o_n_1_1_j_s_o_n_node_1_1_enumerator.html',1,'SimpleJSON::JSONNode']]]
+  ['firebasemanager_136',['FirebaseManager',['../class_firebase_manager.html',1,'']]],
+  ['firebasemanagerfunctions_137',['FirebaseManagerFunctions',['../class_firebase_manager_functions.html',1,'']]],
+  ['fpscounter_138',['FpsCounter',['../class_fps_counter.html',1,'']]]
 ];
