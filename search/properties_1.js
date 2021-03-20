@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['instance_261',['Instance',['../class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e',1,'GameManager.Instance()'],['../class_game_server.html#a3c162a8b059401bcf5b5585c97e8ad1c',1,'GameServer.Instance()']]]
+  ['bathroomprefabindex_500',['BathroomPrefabIndex',['../class_game_manager.html#a117fec99d5568c33d41206883dd66f2a',1,'GameManager']]]
 ];

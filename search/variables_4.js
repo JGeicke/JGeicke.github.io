@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['instance_245',['instance',['../class_firebase_manager.html#a1c2bd1e06e19ee57e470746a779021d8',1,'FirebaseManager']]]
+  ['gamemanager_462',['gameManager',['../class_power_up_behaviour.html#a40bfc946737401dd13a949fe7efcb7a2',1,'PowerUpBehaviour']]],
+  ['gamestarted_463',['gameStarted',['../class_game_manager.html#aa5783d92b603b95bc8ee7ecab4bad6ba',1,'GameManager']]],
+  ['groundfloor_464',['groundFloor',['../struct_level_creation_prefabs.html#a9b305b715c8ccd9098a4f7403f3276e9',1,'LevelCreationPrefabs']]]
 ];

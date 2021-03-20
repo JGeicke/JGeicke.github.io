@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['question_198',['Question',['../class_question.html#a096a2011ddd4b5414000f74fd29c86dc',1,'Question.Question()'],['../class_question.html#a2344a4bf5fcd106bf7458a5863c3ae74',1,'Question.Question(string question, string rightAnswer, List&lt; string &gt; listOfAnswer)']]]
+  ['loaddatabase_355',['LoadDatabase',['../class_firebase_manager.html#aecd6b73cbc71049fa6d7193e594dfba1',1,'FirebaseManager.LoadDatabase()'],['../class_firebase_manager_functions.html#ab22d1b64aa6816b33de62ca1198ec0a1',1,'FirebaseManagerFunctions.LoadDatabase()']]]
 ];

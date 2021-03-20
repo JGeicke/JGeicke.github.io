@@ -97,10 +97,10 @@ $(document).ready(function(){initNavTree('class_player_movement.html',''); initR
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6cafce7df25863ab613816ae66bd6ed"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#aa6cafce7df25863ab613816ae66bd6ed">Move</a> (<a class="el" href="struct_player_input.html">PlayerInput</a> playerInput, float deltaTime=1f)</td></tr>
-<tr class="memdesc:aa6cafce7df25863ab613816ae66bd6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new movement for the player based on its input and returns it. It is called by PlayerController::Move()  <a href="class_player_movement.html#aa6cafce7df25863ab613816ae66bd6ed">More...</a><br /></td></tr>
+<tr class="memdesc:aa6cafce7df25863ab613816ae66bd6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new movement for the player based on its input and returns it. It is called by the <a class="el" href="class_player_controller.html" title="Implements the functionality needed for the Player.">PlayerController</a>.  <a href="class_player_movement.html#aa6cafce7df25863ab613816ae66bd6ed">More...</a><br /></td></tr>
 <tr class="separator:aa6cafce7df25863ab613816ae66bd6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac576128e1716af123b9c623f703168"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#a7ac576128e1716af123b9c623f703168">Jump</a> (<a class="el" href="struct_player_input.html">PlayerInput</a> playerInput, bool isGrounded, float playerJumpForce, float deltaTime=1f)</td></tr>
-<tr class="memdesc:a7ac576128e1716af123b9c623f703168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new jump vector for the player based on its input and returns it. It is called by PlayerController::Jump()  <a href="class_player_movement.html#a7ac576128e1716af123b9c623f703168">More...</a><br /></td></tr>
+<tr class="memdesc:a7ac576128e1716af123b9c623f703168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the new jump vector for the player based on its input and returns it. It is called by the <a class="el" href="class_player_controller.html" title="Implements the functionality needed for the Player.">PlayerController</a>.  <a href="class_player_movement.html#a7ac576128e1716af123b9c623f703168">More...</a><br /></td></tr>
 <tr class="separator:a7ac576128e1716af123b9c623f703168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01284483cf2a1f21717fbbf8a511811c"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_movement.html#a01284483cf2a1f21717fbbf8a511811c">CheckBorders</a> (Vector3 position, <a class="el" href="struct_movement_borders.html">MovementBorders</a> movementBorders)</td></tr>
 <tr class="memdesc:a01284483cf2a1f21717fbbf8a511811c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the position is within the movement borders.  <a href="class_player_movement.html#a01284483cf2a1f21717fbbf8a511811c">More...</a><br /></td></tr>
@@ -252,17 +252,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculates the new jump vector for the player based on its input and returns it. It is called by PlayerController::Jump() </p>
+<p>Calculates the new jump vector for the player based on its input and returns it. It is called by the <a class="el" href="class_player_controller.html" title="Implements the functionality needed for the Player.">PlayerController</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">playerInput</td><td></td></tr>
-    <tr><td class="paramname">isGrounded</td><td></td></tr>
-    <tr><td class="paramname">playerJumpForce</td><td></td></tr>
-    <tr><td class="paramname">deltaTime</td><td></td></tr>
+    <tr><td class="paramname">playerInput</td><td>The current <a class="el" href="struct_player_input.html" title="Contains all needed input values from the player.">PlayerInput</a></td></tr>
+    <tr><td class="paramname">isGrounded</td><td>Whether the player is grounded</td></tr>
+    <tr><td class="paramname">playerJumpForce</td><td>The player jumpforce</td></tr>
+    <tr><td class="paramname">deltaTime</td><td>The time between frames</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new jump vector</dd></dl>
 
 </div>
 </div>
@@ -300,11 +300,11 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculates the new movement for the player based on its input and returns it. It is called by PlayerController::Move() </p>
+<p>Calculates the new movement for the player based on its input and returns it. It is called by the <a class="el" href="class_player_controller.html" title="Implements the functionality needed for the Player.">PlayerController</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">playerInput</td><td></td></tr>
-    <tr><td class="paramname">deltaTime</td><td></td></tr>
+    <tr><td class="paramname">playerInput</td><td>The current <a class="el" href="struct_player_input.html" title="Contains all needed input values from the player.">PlayerInput</a></td></tr>
+    <tr><td class="paramname">deltaTime</td><td>The time between frames</td></tr>
   </table>
   </dd>
 </dl>

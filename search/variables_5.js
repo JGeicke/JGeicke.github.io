@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jumpinput_246',['JumpInput',['../struct_player_input.html#af913e248f65c898a9f1f73a1b29c8dcc',1,'PlayerInput']]]
+  ['horizontalinput_465',['HorizontalInput',['../struct_player_input.html#aba4e7788b01e1439f7f6796e0d2e6a37',1,'PlayerInput']]]
 ];

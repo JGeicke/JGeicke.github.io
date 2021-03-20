@@ -99,15 +99,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab22d1b64aa6816b33de62ca1198ec0a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#ab22d1b64aa6816b33de62ca1198ec0a1">LoadDatabase</a> (GameMode gameMode)</td></tr>
 <tr class="memdesc:ab22d1b64aa6816b33de62ca1198ec0a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the questions &amp; categories from firebase based on the current gamemode.  <a href="class_firebase_manager_functions.html#ab22d1b64aa6816b33de62ca1198ec0a1">More...</a><br /></td></tr>
 <tr class="separator:ab22d1b64aa6816b33de62ca1198ec0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9d67023b7875667a80995482964c60a"><td class="memItemLeft" align="right" valign="top">static Category&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#ac9d67023b7875667a80995482964c60a">GetCategoryAsEnum</a> (string category)</td></tr>
-<tr class="memdesc:ac9d67023b7875667a80995482964c60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the category as an enum value based on the category input string parameter.  <a href="class_firebase_manager_functions.html#ac9d67023b7875667a80995482964c60a">More...</a><br /></td></tr>
-<tr class="separator:ac9d67023b7875667a80995482964c60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4cdaf47d91c8816e0a5148bcade8647"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#af4cdaf47d91c8816e0a5148bcade8647">GetSelectedCategoryQuestion</a> (string[] categories)</td></tr>
-<tr class="memdesc:af4cdaf47d91c8816e0a5148bcade8647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the question lists of categories contained in the input array.  <a href="class_firebase_manager_functions.html#af4cdaf47d91c8816e0a5148bcade8647">More...</a><br /></td></tr>
-<tr class="separator:af4cdaf47d91c8816e0a5148bcade8647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a410b5c236954aef083b8b4bfb0680d9a"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; Category, List&lt; <a class="el" href="class_question.html">Question</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#a410b5c236954aef083b8b4bfb0680d9a">GetQuestionDictionary</a> ()</td></tr>
-<tr class="memdesc:a410b5c236954aef083b8b4bfb0680d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the  <a href="class_firebase_manager_functions.html#a410b5c236954aef083b8b4bfb0680d9a">More...</a><br /></td></tr>
-<tr class="separator:a410b5c236954aef083b8b4bfb0680d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5895ee347b5ec5ffca18dec949f5d3c"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_question.html">Question</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#ac5895ee347b5ec5ffca18dec949f5d3c">GetQuestionList</a> ()</td></tr>
+<tr class="memdesc:ac5895ee347b5ec5ffca18dec949f5d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of <a class="el" href="class_question.html" title="Model class for the question stored in firebase.">Question</a>.  <a href="class_firebase_manager_functions.html#ac5895ee347b5ec5ffca18dec949f5d3c">More...</a><br /></td></tr>
+<tr class="separator:ac5895ee347b5ec5ffca18dec949f5d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788f9f84220052671701ae0398cfde79"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firebase_manager_functions.html#a788f9f84220052671701ae0398cfde79">DebugIsPlayModeTest</a> (bool isPlayModeTest)</td></tr>
+<tr class="memdesc:a788f9f84220052671701ae0398cfde79"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called in PlayMode-Test to be able to test the framework question acquisition.  <a href="class_firebase_manager_functions.html#a788f9f84220052671701ae0398cfde79">More...</a><br /></td></tr>
+<tr class="separator:a788f9f84220052671701ae0398cfde79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements the functionality of the firebase manager. </p>
@@ -115,8 +112,8 @@ Static Public Member Functions</h2></td></tr>
 <p>All functions are stateful. Unlike <code><a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a></code> they can properly be tested in EditMode tests.</p>
 <p>See <a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a></p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac9d67023b7875667a80995482964c60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9d67023b7875667a80995482964c60a">&#9670;&nbsp;</a></span>GetCategoryAsEnum()</h2>
+<a id="a788f9f84220052671701ae0398cfde79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a788f9f84220052671701ae0398cfde79">&#9670;&nbsp;</a></span>DebugIsPlayModeTest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,10 +122,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Category FirebaseManagerFunctions.GetCategoryAsEnum </td>
+          <td class="memname">static void FirebaseManagerFunctions.DebugIsPlayModeTest </td>
           <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>category</em></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isPlayModeTest</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -139,19 +136,21 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the category as an enum value based on the category input string parameter. </p>
+<p>This is called in PlayMode-Test to be able to test the framework question acquisition. </p>
+<p>When played in the framework, the <a class="el" href="class_firebase_manager.html" title="FirebaseManager is a Singleton that controls the connection between game and database.">FirebaseManager</a> only loads specific selected categories.</p>
+<p>The selected categories are supplied by the framework. To properly test specific categories, a test category was created in firebase &amp; is loaded in PlayMode tests.</p>
+<p>It should only be used inside of playmode tests to not disrupt the flow of the game.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">category</td><td>Category as string</td></tr>
+    <tr><td class="paramname">isPlayModeTest</td><td>Toggle PlayMode test mode</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Enum value of category</dd></dl>
 
 </div>
 </div>
-<a id="a410b5c236954aef083b8b4bfb0680d9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a410b5c236954aef083b8b4bfb0680d9a">&#9670;&nbsp;</a></span>GetQuestionDictionary()</h2>
+<a id="ac5895ee347b5ec5ffca18dec949f5d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5895ee347b5ec5ffca18dec949f5d3c">&#9670;&nbsp;</a></span>GetQuestionList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,7 +159,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Dictionary&lt;Category, List&lt;<a class="el" href="class_question.html">Question</a>&gt; &gt; FirebaseManagerFunctions.GetQuestionDictionary </td>
+          <td class="memname">static List&lt;<a class="el" href="class_question.html">Question</a>&gt; FirebaseManagerFunctions.GetQuestionList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -173,49 +172,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the </p>
-<p><code>questionDictionary</code>. </p>
-<p>This function is needed for testing purposes.</p>
-<dl class="section return"><dt>Returns</dt><dd>The <div class="fragment"><div class="line">questionDictionary</div>
-</div><!-- fragment --></dd></dl>
-
-</div>
-</div>
-<a id="af4cdaf47d91c8816e0a5148bcade8647"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4cdaf47d91c8816e0a5148bcade8647">&#9670;&nbsp;</a></span>GetSelectedCategoryQuestion()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static List&lt;<a class="el" href="class_question.html">Question</a>&gt; FirebaseManagerFunctions.GetSelectedCategoryQuestion </td>
-          <td>(</td>
-          <td class="paramtype">string[]&#160;</td>
-          <td class="paramname"><em>categories</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the question lists of categories contained in the input array. </p>
-<p>This function is used to get the question list of one or more categories.</p>
-<p>The returning question list is used to display the questions ingame.</p>
-<p>See questionDictionary</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">categories</td><td>String array of categories</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_question.html" title="Model class for the question stored in firebase.">Question</a> lists of the categories contained in the input.</dd></dl>
+<p>Returns the list of <a class="el" href="class_question.html" title="Model class for the question stored in firebase.">Question</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The questionList</dd></dl>
 
 </div>
 </div>
@@ -248,6 +206,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gameMode</td><td>Current gamemode</td></tr>
+    <tr><td class="paramname">isFirstCategory</td><td>The number of category selected. true for first category, false for second category</td></tr>
   </table>
   </dd>
 </dl>

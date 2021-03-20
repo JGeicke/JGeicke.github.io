@@ -103,6 +103,9 @@ Inheritance diagram for GameServer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aaf2d9dc28894649bc14dd873b8058e52"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_server.html#aaf2d9dc28894649bc14dd873b8058e52">Start</a> ()</td></tr>
+<tr class="memdesc:aaf2d9dc28894649bc14dd873b8058e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start is called before the first frame update.  <a href="class_game_server.html#aaf2d9dc28894649bc14dd873b8058e52">More...</a><br /></td></tr>
+<tr class="separator:aaf2d9dc28894649bc14dd873b8058e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac384484a4fbd72d8e3ee6afee57d3dd5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_server.html#ac384484a4fbd72d8e3ee6afee57d3dd5">OnServerAddPlayer</a> (NetworkConnection conn)</td></tr>
 <tr class="memdesc:ac384484a4fbd72d8e3ee6afee57d3dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the spawn location of the player when player joined the server. Created by: Dixit, Edited By: Lernkartenspiel <a href="class_game_server.html#ac384484a4fbd72d8e3ee6afee57d3dd5">More...</a><br /></td></tr>
 <tr class="separator:ac384484a4fbd72d8e3ee6afee57d3dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +191,29 @@ JSONNode&#160;</td><td class="memItemRight" valign="bottom"><b>GameInfos</b><cod
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aaf2d9dc28894649bc14dd873b8058e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf2d9dc28894649bc14dd873b8058e52">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void GameServer.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start is called before the first frame update. </p>
+<p>The server loads the player info of the local player, if:</p>
+<p>- the player is the host -&gt; start server as host</p>
+<p>- the player is the client -&gt; join server as client</p>
+<p>NOTE: This is not important for development.</p>
 
 </div>
 </div>
